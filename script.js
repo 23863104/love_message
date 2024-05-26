@@ -4,7 +4,7 @@ const messages = [
     "Hayeee main toh barbaad ho gya😫",
     "Dekhloo firr pkaa naa🙄",
     "Huhhhh zyada matt bno, you have no other option😏😂",
-    "Sorry this button does'nt work anymore😚",
+    "Sorry this button doesn't work anymore😚",
     "Hatt jaao abb tohhh😱",
     "Nhi hatt rhe mtlb lohh firr abb krte rho press😏",
     "I love you 1 ♥",
@@ -110,6 +110,8 @@ const messages = [
     "Starts again from here huhhhh💀"
 ];
 
+let currentMessageIndex = 0;
+
 const messageElement = document.getElementById('message');
 const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
@@ -121,6 +123,11 @@ yesButton.addEventListener('click', () => {
 });
 
 noButton.addEventListener('click', () => {
-    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
-    messageElement.textContent = randomMessage;
+    if (currentMessageIndex < messages.length) {
+        messageElement.textContent = messages[currentMessageIndex];
+        currentMessageIndex++;
+    } else {
+        currentMessageIndex = 0;
+        messageElement.textContent = messages[currentMessageIndex];
+    }
 });
