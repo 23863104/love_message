@@ -3,7 +3,7 @@ const messages = [
     "Dekho dekho firr nhi hatt rhe😒",
     "Hayeee main toh barbaad ho gya😫",
     "Dekhloo firr pkaa naa🙄",
-    "Huhhhh zyada matt bno, you have no other option😏😂"
+    "Huhhhh zyada matt bno, you have no other option😏😂",
     "Sorry this button does'nt work anymore😚",
     "Hatt jaao abb tohhh😱",
     "Nhi hatt rhe mtlb lohh firr abb krte rho press😏",
