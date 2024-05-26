@@ -120,6 +120,7 @@ yesButton.addEventListener('click', () => {
     messageElement.textContent = "HEHE, I knew that😉💖";
     noButton.style.display = 'none';
     yesButton.style.display = 'none';
+    videoContainer.classList.remove('hidden');
 });
 
 noButton.addEventListener('click', () => {
