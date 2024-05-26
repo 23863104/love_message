@@ -117,7 +117,7 @@ const yesButton = document.getElementById('yesButton');
 const noButton = document.getElementById('noButton');
 
 yesButton.addEventListener('click', () => {
-    messageElement.textContent = "HEHE, I knew that😉💖";
+    messageElement.textContent = "HEHE, I knew that. Love you too ridhi babyyy😉💖😂";
     noButton.style.display = 'none';
     yesButton.style.display = 'none';
     videoContainer.classList.remove('hidden');
