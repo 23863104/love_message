@@ -107,8 +107,7 @@ const messages = [
     "I love you 98 ♥",
     "I love you 99 ♥",
     "I love you 100 ♥",
-    "Gonna go till infinity system can't handle that much so say YES chup chap🥹👉👈",
-    "Starts again from here huhhhh💀"
+    "Gonna go till infinity system can't handle that much so say YES chup chap🥹👉👈"
 ];
 
 let currentMessageIndex = 0;
